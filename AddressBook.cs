@@ -59,4 +59,17 @@ public class AddressBook
         }
         return contact;
     }
+    public void DisplayContact()
+    {
+        foreach (Contact contact in contactsList)
+        {
+            Console.WriteLine($"First Name: {contact.FirstName}");
+            Console.WriteLine($"Last Name: {contact.LastName}");
+            Console.WriteLine($"Contact Number: {contact.ContactNumber}");
+            Console.WriteLine($"Email: {contact.Email}");
+            Console.WriteLine($"City: {contact.City}");
+            Console.WriteLine($"State: {contact.State}");
+            Console.WriteLine($"Zip: {contact.Zip}");
+        }
+    }
 }
