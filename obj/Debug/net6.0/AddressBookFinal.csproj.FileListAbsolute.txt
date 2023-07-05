@@ -1,0 +1,15 @@
+C:\Users\kunda\source\repos\AddressBookFinal\bin\Debug\net6.0\AddressBookFinal.exe
+C:\Users\kunda\source\repos\AddressBookFinal\bin\Debug\net6.0\AddressBookFinal.deps.json
+C:\Users\kunda\source\repos\AddressBookFinal\bin\Debug\net6.0\AddressBookFinal.runtimeconfig.json
+C:\Users\kunda\source\repos\AddressBookFinal\bin\Debug\net6.0\AddressBookFinal.dll
+C:\Users\kunda\source\repos\AddressBookFinal\bin\Debug\net6.0\AddressBookFinal.pdb
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.csproj.AssemblyReference.cache
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.AssemblyInfoInputs.cache
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.AssemblyInfo.cs
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.csproj.CoreCompileInputs.cache
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.dll
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\refint\AddressBookFinal.dll
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.pdb
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\AddressBookFinal.genruntimeconfig.cache
+C:\Users\kunda\source\repos\AddressBookFinal\obj\Debug\net6.0\ref\AddressBookFinal.dll
