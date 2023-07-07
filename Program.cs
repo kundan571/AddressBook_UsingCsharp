@@ -10,6 +10,8 @@ internal class Program
         {
             Console.WriteLine("Enter 1 To Add Contact:");
             Console.WriteLine("Enter 2 To Display Contact");
+            Console.WriteLine("Enter 3 To Edit Contact");
+            Console.WriteLine("Enter 4 To Delete Contact:");
             Console.WriteLine("Enter 0 to Exit");
             string userInput = Console.ReadLine();
             choice = Convert.ToInt32(userInput);
@@ -21,6 +23,12 @@ internal class Program
                     break;
                 case 2:
                     addressBook.DisplayContact();
+                    break;
+                case 3:
+                    addressBook.EditContact();
+                    break;
+                case 4:
+                    addressBook.DeleteContact();
                     break;
             }
         }
