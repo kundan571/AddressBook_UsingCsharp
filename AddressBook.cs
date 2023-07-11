@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace AddressBookFinal;
 
 public class AddressBook
 {
     private List<Contact> contactsList = new List<Contact>();
+    string filePath = @"C:\Users\kunda\OneDrive\Desktop\File\Myfile";
     public Contact AddContact()
     {
         Contact contact = new Contact();
@@ -140,8 +143,35 @@ public class AddressBook
             }
             else 
             {
-                Console.WriteLine("Name does not exist: please enter the correct mane:");
+                Console.WriteLine("Name does not exist: please enter the correct name:");
             }
+        }
+
+    }
+
+    public void WriteToFile()
+    {
+        try
+        {
+            string jsonContent = JsonConvert.SerializeObject(contactsList);
+            File.WriteAllText(filePath, jsonContent);
+        }
+        catch (Exception ex) 
+        {     
+            Console.WriteLine(ex.Message); 
+        }
+    }
+
+    public void ReadFromFile()
+    {
+        try
+        {
+            string fileContent = File.ReadAllText(filePath);
+            contactsList = JsonConvert.DeserializeObject<List<Contact>>(fileContent);
+        }
+        catch (Exception ex) 
+        { 
+            Console.WriteLine(ex.Message);
         }
 
     }
